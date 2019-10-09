@@ -12,7 +12,7 @@ import com.tedu.sp01.service.UserService;
 import com.tedu.web.util.JsonUtil;
 
 import lombok.extern.slf4j.Slf4j;
-@RefreshScope
+@RefreshScope //会重新注入更新的配置数据
 @Slf4j
 @Service
 public class UserServiceImpl implements UserService {
